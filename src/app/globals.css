@@ -11,6 +11,10 @@
 }
 
 @layer components {
+
+  .image {
+ @apply m-10;
+  }
   .wrapper {
     @apply font-sans bg-blue-200 p-12;
   }
