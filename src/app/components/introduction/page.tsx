@@ -6,15 +6,16 @@ export default function Intro (){
 
     return (
 
-<div>
+<div className="wrapper">
 <div className="image flex justify-center">
     <Image src={fslpic} alt="Faisal's pic" width={300} height={400}/>
 </div>
-<h1 className="heading">SYED FAISAL UR RAHMAN</h1>
-	<div className="wrapper">
+<h1>SYED FAISAL UR RAHMAN</h1>
+	<div className="heading">
 		<p>E-mail : faisalrahman36@hotmail.com</p>
 		<p>Phone : +92(0)3352107453</p>
 	</div>
+	<br />
 	<div className="wrapper">
 		<p><a href="https://www.linkedin.com/in/syed-faisal-9aa29b2a/">LinkedIn</a></p>
 		<p><a href="https://github.com/faisalrahman36/">Git</a></p>

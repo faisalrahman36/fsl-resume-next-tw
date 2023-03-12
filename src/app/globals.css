@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply text-black bg-slate-50;
+    @apply text-black bg-slate-50 ;
   }
 }
 
@@ -16,13 +16,13 @@
  @apply m-10;
   }
   .wrapper {
-    @apply font-sans bg-blue-200 p-12;
+    @apply font-sans bg-blue-200 p-12 text-center;
   }
   .menu {
-    @apply bg-white p-2 rounded-full mb-7;
+    @apply bg-black  text-white p-1 mb-1;
   }
   a {
-    @apply bg-blue-50 text-black py-2 px-6 rounded-full;
+    @apply bg-white text-black py-2 px-6 my-20;
   }
   a.active {
     @apply bg-blue-500 text-white;
@@ -34,11 +34,15 @@
   h2 {
     @apply font-bold mb-3;
   }
+
+  h4 {
+    @apply font-bold mb-3;
+  }
 .heading {
   @apply font-bold bg-blue-200 mb-3 font-mono;
 }
 .bullet {
-  @apply bg-blue-200 text-gray-800 py-2 px-6 rounded-full;
+  @apply bg-slate-50  text-gray-800 py-2 px-6;
 
   
 }

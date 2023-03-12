@@ -12,7 +12,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Menu() {
   return (
-    <div className='menu'>
+    <div>
+    <div className='menu flex justify-center'>
             <Link href="/">Home</Link>
 
       <Link href="/components/introduction/">Introduction</Link>
@@ -23,7 +24,7 @@ export default function Menu() {
       <Link href="/components/publications">Publications</Link>
 
 
-
+      </div>
    </div>
   );
 }
