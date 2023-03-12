@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import Intro from './components/introduction/page';
@@ -8,21 +7,23 @@ import Experience from './components/experience/page';
 import Memberships from './components/memberships/page';
 import Publications from './components/publications/page';
 import Link from 'next/link';
-import Menu from './menu';
+
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Menu() {
   return (
-    <div>
-      <Menu/>
+    <div className='menu'>
+            <Link href="/">Home</Link>
+
+      <Link href="/components/introduction/">Introduction</Link>
+      <Link href="/components/experience">Experience</Link>
+      <Link href="/components/education">Education</Link>
+      <Link href="/components/professionalservices">Professional Services</Link>
+      <Link href="/components/memberships">Memberships</Link>
+      <Link href="/components/publications">Publications</Link>
 
 
-<Intro/>
-<Experience/>
-<Education/>
-<ProfessionalServices/>
-<Memberships/>
-<Publications></Publications>
-    </div>
+
+   </div>
   );
 }
