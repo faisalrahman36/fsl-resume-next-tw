@@ -1,5 +1,9 @@
 import Image from "next/image";
 import fslpic from "../../../../public/assets/fsl_pic.jpeg"
+import linkedinlogo from "../../../../public/assets/linkedinlogo.png"
+import gitlogo from "../../../../public/assets/githublogo.png"
+
+
 import Menu from '../../menu';
 
 export default function Intro (){
@@ -17,8 +21,13 @@ export default function Intro (){
 	</div>
 	<br />
 	<div className="wrapper">
-		<p><a href="https://www.linkedin.com/in/syed-faisal-9aa29b2a/" className="flex justify-start">LinkedIn</a></p>
-		<p><a href="https://github.com/faisalrahman36/" className="flex justify-start">Git</a></p>
+		
+	<Image src={linkedinlogo} alt="linkedin profile" width={300} height={40}>
+	<a href="https://www.linkedin.com/in/syed-faisal-9aa29b2a/" className="flex justify-start">LinkedIn</a>
+	</Image>
+	<Image src={gitlogo} alt="git profile" width={300} height={40}>
+	
+	<a href="https://github.com/faisalrahman36/" className="flex justify-start">Git</a></Image>
 	</div>
 	<h2 className="heading">Permanent Address</h2>
 	<p>B-58, Central Government Society, Block 10-A, Gulshan-e-Iqbal, 75300, Karachi, Pakistan</p>
