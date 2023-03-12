@@ -19,15 +19,16 @@ export default function Intro (){
 		<p>E-mail : faisalrahman36@hotmail.com</p>
 		<p>Phone : +92(0)3352107453</p>
 	</div>
-	<br />
-	<div className="wrapper">
+	<div>
 		
-	<Image src={linkedinlogo} alt="linkedin profile" width={300} height={40}>
-	<a href="https://www.linkedin.com/in/syed-faisal-9aa29b2a/" className="flex justify-start">LinkedIn</a>
-	</Image>
-	<Image src={gitlogo} alt="git profile" width={300} height={40}>
+	<a href="https://www.linkedin.com/in/syed-faisal-9aa29b2a/" className="flex justify-start">	
+	<Image src={linkedinlogo} alt="linkedin profile" width={10} height={14}/><p className="text-left"> LinkedIn Profile </p>
+</a>
 	
-	<a href="https://github.com/faisalrahman36/" className="flex justify-start">Git</a></Image>
+	
+	<a href="https://github.com/faisalrahman36/" className="flex justify-start">	
+	<Image src={gitlogo} alt="git profile" width={10} height={14}/> <p className="text-left">Git Profile</p>
+</a>
 	</div>
 	<h2 className="heading">Permanent Address</h2>
 	<p>B-58, Central Government Society, Block 10-A, Gulshan-e-Iqbal, 75300, Karachi, Pakistan</p>
