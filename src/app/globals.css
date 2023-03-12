@@ -21,12 +21,7 @@
   .menu {
     @apply bg-black  text-white p-1 mb-1;
   }
-  a {
-    @apply bg-white text-black py-2 px-6 my-20;
-  }
-  a.active {
-    @apply bg-blue-500 text-white;
-  }
+ 
   h3 {
     @apply font-bold mb-3 font-mono;
   }
