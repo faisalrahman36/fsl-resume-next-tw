@@ -7,8 +7,8 @@ export default function Intro (){
     return (
 
 <div>
-<div>
-    <Image src={fslpic} alt="Faisal's pic" width={40} height={40}/>
+<div className="heading flex justify-center">
+    <Image src={fslpic} alt="Faisal's pic" width={300} height={400}/>
 </div>
 <h1 className="heading">SYED FAISAL UR RAHMAN</h1>
 	<div className="wrapper">
